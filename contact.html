@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Focus to Frame</title>
+  <meta name="description" content="Get in touch with Geethu Nair — book a photography session with Focus to Frame in Downingtown, Pennsylvania.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">Focus <span>to</span> Frame</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<div class="contact-hero">
+  <div class="contact-hero-text">
+    <p class="section-sub" style="color:var(--gold); margin-bottom:1rem;">Let's Connect</p>
+    <h1 class="section-title" style="color:var(--white);">Get in <span>Touch</span></h1>
+  </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<section style="padding:7rem 4rem; background:var(--black);">
+  <div class="contact-wrap">
+
+    <!-- INFO -->
+    <div class="contact-info reveal">
+      <p class="section-sub">Say Hello</p>
+      <h2>Let's Create Something <span style="color:var(--gold); font-style:italic;">Beautiful</span></h2>
+      <div class="divider"></div>
+      <p>Whether you're ready to book a session or just have a question, I'd love to hear from you. I typically respond within 24–48 hours.</p>
+
+      <ul class="contact-details">
+        <li>
+          <span class="icon">✉️</span>
+          <div>
+            <span class="label">Email</span>
+            <a href="mailto:geeturnair.socsams@gmail.com" class="value">geeturnair.socsams@gmail.com</a>
+          </div>
+        </li>
+        <li>
+          <span class="icon">📍</span>
+          <div>
+            <span class="label">Location</span>
+            <span class="value">Downingtown, Pennsylvania, USA</span>
+          </div>
+        </li>
+        <li>
+          <span class="icon">📸</span>
+          <div>
+            <span class="label">Instagram</span>
+            <a href="https://www.instagram.com/focustoframe/" target="_blank" rel="noopener" class="value">@focustoframe</a>
+          </div>
+        </li>
+        <li>
+          <span class="icon">🕐</span>
+          <div>
+            <span class="label">Response Time</span>
+            <span class="value">Within 24–48 hours</span>
+          </div>
+        </li>
+        <li>
+          <span class="icon">📅</span>
+          <div>
+            <span class="label">Availability</span>
+            <span class="value">Weekdays &amp; Weekends by appointment</span>
+          </div>
+        </li>
+      </ul>
+
+      <div style="margin-top:2.5rem;">
+        <p style="color:var(--grey); font-size:0.8rem; letter-spacing:2px; text-transform:uppercase; margin-bottom:1rem;">Follow Along</p>
+        <a href="https://www.instagram.com/focustoframe/" target="_blank" rel="noopener" class="btn">@focustoframe on Instagram</a>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="reveal">
+      <div class="contact-form">
+        <p class="section-sub" style="margin-bottom:0.5rem;">Send a Message</p>
+        <h3 style="font-family:var(--font-serif); font-size:1.6rem; margin-bottom:2rem; color:var(--white);">Book a Session</h3>
+
+        <form id="contactForm" action="mailto:geeturnair.socsams@gmail.com" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="First Name" placeholder="Your first name" required>
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="Last Name" placeholder="Your last name" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="Email" placeholder="your@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number (Optional)</label>
+            <input type="tel" id="phone" name="Phone" placeholder="+1 (555) 000-0000">
+          </div>
+
+          <div class="form-group">
+            <label for="service">Session Type</label>
+            <select id="service" name="Session Type" required>
+              <option value="" disabled selected>Select a session type</option>
+              <option value="portrait">Portrait Photography</option>
+              <option value="pet">Pet Photography</option>
+              <option value="nature">Nature &amp; Seasonal</option>
+              <option value="lifestyle">Lifestyle Session</option>
+              <option value="other">Other / Not Sure Yet</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Preferred Date (Optional)</label>
+            <input type="date" id="date" name="Preferred Date">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell Me More</label>
+            <textarea id="message" name="Message" placeholder="Tell me about your vision, what you're looking for, any special requests or questions..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-fill" style="width:100%; text-align:center; font-size:0.85rem;">Send Message</button>
+        </form>
+
+        <div class="form-success">
+          <p>✨ Thank you! Your message has been sent.</p>
+          <p style="font-size:0.9rem; color:var(--grey); font-family:var(--font-sans); font-style:normal; margin-top:0.5rem;">I'll get back to you within 24–48 hours.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="padding:7rem 4rem; background:var(--dark);">
+  <div class="reveal" style="text-align:center;">
+    <p class="section-sub">Common Questions</p>
+    <h2 class="section-title">FAQ</h2>
+    <div class="divider" style="margin-inline:auto;"></div>
+  </div>
+  <div style="max-width:800px; margin:0 auto;" class="reveal">
+
+    <details style="border-bottom:1px solid rgba(255,255,255,0.07); padding:1.5rem 0; cursor:pointer;">
+      <summary style="font-family:var(--font-serif); font-size:1.1rem; color:var(--white); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+        How do I book a session?
+        <span style="color:var(--gold); font-size:1.3rem;">+</span>
+      </summary>
+      <p style="color:var(--grey); margin-top:1rem; line-height:1.8; font-size:0.95rem;">Simply fill out the contact form above or send me an email at geeturnair.socsams@gmail.com. Tell me what kind of session you're interested in and we'll find a date that works!</p>
+    </details>
+
+    <details style="border-bottom:1px solid rgba(255,255,255,0.07); padding:1.5rem 0; cursor:pointer;">
+      <summary style="font-family:var(--font-serif); font-size:1.1rem; color:var(--white); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+        Where are sessions held?
+        <span style="color:var(--gold); font-size:1.3rem;">+</span>
+      </summary>
+      <p style="color:var(--grey); margin-top:1rem; line-height:1.8; font-size:0.95rem;">I'm based in Downingtown, Pennsylvania and shoot primarily outdoors in natural settings. I'm happy to scout locations together or use a spot that's meaningful to you.</p>
+    </details>
+
+    <details style="border-bottom:1px solid rgba(255,255,255,0.07); padding:1.5rem 0; cursor:pointer;">
+      <summary style="font-family:var(--font-serif); font-size:1.1rem; color:var(--white); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+        How long until I receive my photos?
+        <span style="color:var(--gold); font-size:1.3rem;">+</span>
+      </summary>
+      <p style="color:var(--grey); margin-top:1rem; line-height:1.8; font-size:0.95rem;">Edited images are typically delivered within 1–2 weeks via a private online gallery. You'll receive a link to download all your high-resolution images.</p>
+    </details>
+
+    <details style="border-bottom:1px solid rgba(255,255,255,0.07); padding:1.5rem 0; cursor:pointer;">
+      <summary style="font-family:var(--font-serif); font-size:1.1rem; color:var(--white); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+        What should I wear?
+        <span style="color:var(--gold); font-size:1.3rem;">+</span>
+      </summary>
+      <p style="color:var(--grey); margin-top:1rem; line-height:1.8; font-size:0.95rem;">Wear something that makes you feel confident and comfortable! Solid, earthy tones tend to photograph beautifully. I'll send styling tips after you book.</p>
+    </details>
+
+    <details style="padding:1.5rem 0; cursor:pointer;">
+      <summary style="font-family:var(--font-serif); font-size:1.1rem; color:var(--white); list-style:none; display:flex; justify-content:space-between; align-items:center;">
+        Do you photograph pets?
+        <span style="color:var(--gold); font-size:1.3rem;">+</span>
+      </summary>
+      <p style="color:var(--grey); margin-top:1rem; line-height:1.8; font-size:0.95rem;">Absolutely — pets are some of my favorite subjects! I have a knack for capturing their personality. You can bring your furry friend along to any session or book a dedicated pet shoot.</p>
+    </details>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <span class="nav-logo">Focus <span>to</span> Frame</span>
+    <p>Portrait photographer based in Downingtown, Pennsylvania. Capturing authentic moments with soul and light.</p>
+  </div>
+  <div>
+    <h4>Quick Links</h4>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Get in Touch</h4>
+    <ul>
+      <li><a href="mailto:geeturnair.socsams@gmail.com">geeturnair.socsams@gmail.com</a></li>
+      <li><a href="https://www.instagram.com/focustoframe/" target="_blank">@focustoframe</a></li>
+      <li><a href="contact.html">Book a Session</a></li>
+    </ul>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2025 Focus to Frame &mdash; Geethu Nair. All rights reserved.</span>
+    <span>Downingtown, Pennsylvania</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
