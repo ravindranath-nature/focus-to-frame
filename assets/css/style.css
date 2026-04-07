@@ -129,7 +129,7 @@ nav.scrolled {
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background-image: url('../images/658121931_18402491185198753_5483701911430346319_n.jpg');
+
   background-size: cover;
   background-position: center;
   filter: brightness(0.4);
