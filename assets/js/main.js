@@ -34,13 +34,21 @@ reveals.forEach(r => io.observe(r));
 const lightbox = document.getElementById('lightbox');
 if (lightbox) {
   const lbImg = lightbox.querySelector('img');
+  const lbCaption = lightbox.querySelector('.lb-caption');
   const items = [...document.querySelectorAll('.masonry-item, .featured-item')];
   let current = 0;
 
   function openLb(idx) {
     current = idx;
-    const img = items[idx].querySelector('img');
+    const item = items[idx];
+    const img = item.querySelector('img');
+    const caption = item.querySelector('.caption p')?.textContent?.trim();
+    const total = items.length;
     lbImg.src = img.src;
+    lbImg.alt = img.alt;
+    lbCaption.textContent = caption
+      ? `${caption} · ${idx + 1} / ${total}`
+      : `Photo ${idx + 1} of ${total}`;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
